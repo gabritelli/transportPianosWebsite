@@ -457,6 +457,7 @@ h1 {
     grid-template-columns: 25% 25% 25% 25%;
   }
 }
+
 .gallery img {
   height: 300px;
   width: 300px;
