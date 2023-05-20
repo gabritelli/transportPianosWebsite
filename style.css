@@ -106,7 +106,7 @@ html{
   background: linear-gradient(
       rgba(0, 0, 0, .7), 
       rgba(0, 0, 0, .6)),   
-      url('data/photo-1517578099694-8b23adec837c.jpg');
+      url('data/trasporto_pianoforti_13.jpg');
       
   height: 100vh;
   background-size: cover;
@@ -464,6 +464,7 @@ h1 {
   max-width: 100%;
   vertical-align: middle;
 }
+
 .template {
   transition: all 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   opacity: 0;
