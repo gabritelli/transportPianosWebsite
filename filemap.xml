@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
    <url>
       <loc>https://trasportopianofortidegiovanni.com/</loc>
       <lastmod>2023-05-25</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
+      <video:video>
+         <video:content_loc>https://trasportopianofortidegiovanni.com/data/trasporto_pianoforti_video.mp4</video:content_loc>
+         <video:title>Trasporto Pianoforti - Come avviene il trasporto di un pianoforte</video:title>
+         <video:description>Il video descrive come avviene il trasporto di un pianoforte dall'interno di una scala condominiale fino ad un'altra locazione.</video:description>
+         <video:publication_date>2023-05-26</video:publication_date>
+         <video:category>Trasporto Pianoforti</video:category>
+      </video:video>
    </url>
 </urlset>
