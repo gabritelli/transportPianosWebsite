@@ -25,25 +25,27 @@ html{
   transition: all .4s;
 }
 
-#logo {
-  width: 500px;
-  height: 350px;
-}
-
-#aboutUslogo {
-  width: 350px;
-  padding-bottom: 50px;
-  padding-left: 80px;
-}
-
 @media (max-width:34em) {
   .nav-menu {
       background: #000 !important;
+  }
+
+  #bodyPage {
+    width: fit-content;
+  }
+  
+  #sudinoiimage {
+    padding-right: 30%;
   }
 }
 
 .nav-item {
   padding: 0 10px;
+}
+
+#logo {
+  width: 500px;
+  height: 350px;
 }
 
 .menu-item {
@@ -57,11 +59,6 @@ html{
 @media (max-width: 34em) {
   .menu-item {
       padding: 10px 10px 10px;
-  }
-
-  .template.animate {
-    transform: scale(0.8,0.4);
-    opacity: 1;
   }
 }
 
@@ -278,6 +275,8 @@ textarea:focus {
   border-color: #4697e4;
 }
 
+
+
 @media (max-width: 600px) {
   form > div {
     margin: 0 0 15px 0; 
@@ -302,34 +301,6 @@ textarea:focus {
     width: 100%; 
   }
 
-  .template.animate {
-    transform: scale(0.8,0.4);
-    opacity: 1;
-  }
-
-  #logo {
-    width: -webkit-fill-available;
-    height: auto;
-    padding-left: 5%;
-  }
-
-  #aboutUslogo{
-    padding-bottom: 0;
-    padding-left: 0;
-    width: 150px;
-  }
-
-  #image-gallery {
-    height: 140px;
-  }
-
-  #gallery-dots {
-    display: inline-flex;
-  }
-
-  #gallery-pagination {
-    padding-top: 30%;
-  }
 }
 @media (min-width: 1200px) {
   form > div > label,
@@ -430,11 +401,6 @@ textarea:focus {
     max-width: 1200px;
     margin: auto;
   }
-
-  #logo {
-    width: 60%;
-  }
-  
 }
 @media only screen and (max-width: 1139px) {
   .contain .social {
@@ -447,10 +413,6 @@ textarea:focus {
   .social h1 {
     margin: 0px;
   }
-
-  #logo {
-    width: 60%;
-  }
 }
 @media only screen and (max-width: 950px) {
   .footer .col {
@@ -462,11 +424,6 @@ textarea:focus {
   .footer .col ul li {
     font-size: 13px;
   }
-
-  #logo {
-    width: 60%;
-  }
-
 }
 @media only screen and (max-width: 500px) {
     .footer .col {
@@ -478,18 +435,10 @@ textarea:focus {
     .footer .col ul li {
       font-size: 13px;
     }
-
-    #logo {
-      width: 60%;
-    }
 }
 @media only screen and (max-width: 340px) {
   .footer .col {
     width: 100%;
-  }
-
-  #logo {
-    width: 60%;
   }
 }
 
@@ -519,15 +468,16 @@ h1 {
   max-inline-size: fit-content;
 }
 
+body{
+  display: grid;
+}
+
 @media (min-width: 580px) {
   .images {
     grid-template-columns: 25% 25% 25% 25%;
   }
-
-  #logo {
-    width: 60%;
-  }
 }
+
 
 .gallery img {
   height: 300px;
@@ -553,11 +503,12 @@ h1 {
   letter-spacing: 1px;
   margin: 0;
   width: 100%;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
   padding: 25px 10px 10px 10px;
 }
 
 .template.animate {
-  transform: scale(0.9,0.8);
+  transform: scale(1.1);
   opacity: 1;
 }
 
@@ -599,6 +550,7 @@ h1 {
   margin-bottom: 15px
 }
 
+
 .gallery-dot {
   background: orange;
   border:0;
@@ -619,4 +571,65 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   align-items: start;
+}
+
+@media only screen and (max-width: 428px) {
+  /* Ottimizzazione del menu */
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .menu-item {
+    font-size: 200%;
+  }
+
+  /* Ottimizzazione della sezione hero */
+  .text-hero {
+    font-size: 55px;
+  }
+
+  .sub-text-hero {
+    letter-spacing: 6px;
+  }
+
+  .item-bottom {
+    font-size: 16px;
+  }
+
+  /* Ottimizzazione della sezione preventive */
+  .preventive > h1 {
+    font-size: 20px;
+  }
+
+  .container h1 {
+    font-size: 40px;
+  }
+
+  form > div > label,
+  legend {
+    font-size: 14px;
+  }
+
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea {
+    font-size: 16px;
+  }
+
+  /* Ottimizzazione del footer */
+  .footer .col h1 {
+    font-size: 10px;
+  }
+
+  .footer .col ul li {
+    font-size: 11px;
+  }
+
+  /* Ottimizzazione della galleria */
+  .gallery img {
+    height: 240px;
+    width: 240px;
+  }
 }
