@@ -430,10 +430,6 @@ textarea:focus {
     max-width: 1200px;
     margin: auto;
   }
-
-  #logo {
-    width: 60%;
-  }
   
 }
 @media only screen and (max-width: 1139px) {
@@ -448,9 +444,6 @@ textarea:focus {
     margin: 0px;
   }
 
-  #logo {
-    width: 60%;
-  }
 }
 @media only screen and (max-width: 950px) {
   .footer .col {
@@ -461,10 +454,6 @@ textarea:focus {
   }
   .footer .col ul li {
     font-size: 13px;
-  }
-
-  #logo {
-    width: 60%;
   }
 
 }
@@ -524,9 +513,6 @@ h1 {
     grid-template-columns: 25% 25% 25% 25%;
   }
 
-  #logo {
-    width: 60%;
-  }
 }
 
 .gallery img {
